@@ -403,93 +403,128 @@
  /* Small devices (phones) */
    
 @media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
   .navbar {
     flex-direction: column;
-    height: auto;
+    align-items: flex-start;
     padding: 10px;
+    height: auto;
   }
 
   .nav_logo {
+    width: 100px;
+    height: 40px;
     margin-bottom: 10px;
   }
 
   .search {
-    width: 90%;
-    margin: 10px auto;
+    flex-direction: row;
+    width: 95%;
+    height: 35px;
+    margin: 10px 0;
+  }
+
+  .search_select {
+    width: 60px;
+  }
+
+  .search_input {
+    font-size: 1rem;
+  }
+
+  .search_icon {
+    width: 40px;
+    font-size: 1rem;
   }
 
   .panel {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
+    height: auto;
   }
 
   .panel_ops {
     width: 100%;
-    margin-top: 10px;
     flex-wrap: wrap;
+    gap: 5px;
+    font-size: 0.85rem;
   }
 
   .shop_section {
     flex-direction: column;
-    height: auto;
     align-items: center;
+    padding: 10px;
+    height: auto;
   }
 
   .box {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .box_img {
+    height: 200px;
+  }
+
+  .hero_section {
+    height: auto;
+    background-size: cover;
+  }
+
+  .hero_message {
     width: 90%;
+    font-size: 0.85rem;
+    margin-top: 150px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .sign_button {
+    padding: 10px;
   }
 
   .sign-box {
     width: 60%;
-    margin-left: 20%;
+    margin: 10px auto;
   }
 
   .foot-panel2 {
     flex-direction: column;
-    height: auto;
     align-items: center;
+    text-align: center;
+    padding: 20px;
   }
 
   .foot-panel2 ul {
     margin: 10px 0;
   }
 
-  .foot-panel3 {
-    flex-direction: column;
-  }
-
   .foot-logo {
-    margin-bottom: 10px;
+    width: 80px;
+    height: 40px;
   }
 
-  .hero_message {
-    width: 90%;
+  .foot-panel3,
+  .foot-panel4 {
     font-size: 0.75rem;
     text-align: center;
+ 
+
+  .page a {
+    font-size: 0.75rem;
   }
 
-  .panel_menu {
-    margin-bottom: 5px;
+  .copyright {
+    font-size: 0.7rem;
   }
 }
 
-/* Medium devices (tablets) */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .search {
-    width: 80%;
-  }
-
-  .box {
-    width: 45%;
-  }
-
-  .shop_section {
-    justify-content: space-around;
-  }
-
-  .foot-panel2 {
-    flex-wrap: wrap;
-  }
-     }
-   
+ 
