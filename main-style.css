@@ -536,6 +536,48 @@
     margin-top: 5px;
   }
    }
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 10px;
+    gap: 10px;
+    height: auto;
+  }
 
+  .nav_logo {
+    height: 40px;
+    width: 90px;
+    background-size: contain;
+  }
+
+  .search {
+    width: 100%;
+    order: 1;
+    margin-top: 10px;
+  }
+
+  .location,
+  .Sign,
+  .Returns,
+  .cart {
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  .search_input {
+    font-size: 0.85rem;
+  }
+
+  .search_icon {
+    font-size: 1rem;
+  }
+
+  .sign_list {
+    font-size: 0.7rem;
+  }
+   }
+   
   
  
