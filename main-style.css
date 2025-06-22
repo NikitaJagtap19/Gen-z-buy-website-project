@@ -1,0 +1,405 @@
+ 
+
+   *{
+    margin: 0%;
+    font-family: arial;
+   }
+   .navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+     /* position: fixed;  */
+    width: 100vw; 
+   }
+    
+   .nav_logo{   
+   background-size: contain;
+    height: 60px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("nav-logo.png");
+
+}
+
+   
+
+   .border:hover{
+      border: 1.5px solid white;
+      cursor: pointer;
+       
+        
+   }
+
+   .loca-logo{
+    display: flex;
+   }
+   /** box 2 **/
+
+    .loca-first{
+   color:#cccccc ;
+   font-size: 0.85rem;
+   margin-left: 15px;
+   }
+
+   .loca-second{
+   font-size: 1rem;
+   }
+   /**   box 2 **/
+
+   .search {
+   background-color: pink;
+   display: flex;
+   width: 650px;
+   height: 35px;
+   border-radius: 4px;
+   justify-content: space-evenly;
+   }
+   
+   .search:hover{
+   border: 2px solid rgb(239, 182, 12);
+   cursor: pointer;
+   
+    }
+
+   .search_select{
+   width: 50px;
+   text-align: center;
+   border: none;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   background-color:#f3f3f3;
+ }
+ .search_input{
+   width: 100%; 
+   border: none;
+   font-size: 0.99rem;
+   }
+
+   .search_icon{
+   width: 45px;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+  background-color:  rgb(239, 182, 12);
+  font-size: 1.2rem;
+  color: black;
+  }
+  
+
+ /*  box4 **/
+  
+
+ .sign_name{
+   display: flex;
+  font-size: 0.85rem;
+  font-weight: 700;
+
+ }
+
+ .sign_first{
+   font-size: 0.7rem;
+ }
+
+ .sign_list{
+   background-color: black;
+   color: aliceblue;
+   border: none;
+ }
+
+ /** box 5**/
+ .returns_first{
+   font-size: 0.7rem;
+ }
+
+ .returns_second{
+   font-size: 0.85rem;
+   font-weight: 700;
+ }
+
+ .cart i {
+  font-size: 25px;
+ }
+
+ .cart{
+   font-size: 0.85rem;
+   font-weight: 700;
+ }
+ /****panel **/
+ 
+ .panel{
+  background-color: #222f3d;
+  height: 40px;  
+  width: 100vw;
+  color: peru;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  }
+  
+ 
+
+ .panel_menu{
+  display: flex;
+ }
+ .panel_first{
+  font-weight: 600;
+  margin-left: 5px;
+ }
+
+  .panel_ops p{
+    display:inline;
+    margin-left: 15px;
+    font-size: 0.87rem;
+  }
+  .panel_ops p:hover{
+      border: 1.5px solid white;
+      cursor: pointer;
+      
+  }
+
+   
+  .panel_ops{
+    width: 70%; 
+
+  }
+  .panel_deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+ /** HERO SECTION **/
+ .hero_section{
+  background-image: url("hero-banner.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;    
+  background-position: center;    
+  height: 300px;
+  width: 100vw;
+}
+
+  
+
+ .hero_message{
+  background-color: white;
+  height: 40px; 
+ width: 80%;
+ font-size:0.85rem;
+  font-weight: 200;
+  margin-top: 200px;
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  
+ }
+
+ .hero_message a:hover{
+  color: rgb(197, 64, 64);
+
+ }
+/** shopping section **/
+
+.shop_section{
+  display: flex;
+  justify-content: space-evenly;
+   background-color:#ffffea;  
+   flex-wrap: wrap;
+   height: 940px;
+   width: 100vw;
+}
+  
+.box{
+  
+  height: 400px;
+  width:23%;
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px 0px 15px;
+}
+ 
+.box:hover{
+  cursor: pointer;
+}
+
+
+.box_img{
+  height: 300px;
+  margin-top: 15px;
+  margin-bottom: 17px;
+  background-size: cover;
+  
+}
+
+.box_contain{
+  margin-left: 10px;
+  margin-right: 10px;
+
+ }
+ .box_contain p {
+  color: #007185;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+.box_contain p:hover{
+  color: rgb(144, 39, 39);
+}
+
+
+ /*** sign button **/ 
+
+.sign_button{
+  background-color:white;
+  height: 130px;
+  width: 100vw;
+  font-family: Arial, Helvetica;
+  border: 1px solid #ddd;
+  margin-top:15px;
+  margin-bottom: 15px;
+  }
+
+.first-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 32px;
+  margin-bottom: 3px;
+  font-family: Arial;
+  
+}
+.sign-box{
+  
+  background-color:  rgb(237, 190, 50);
+  height: 27px;
+  width: 20%;
+  cursor: pointer;
+  border: 1px solid rgb(243, 129, 8);
+ border-radius: 5px;
+ text-shadow: 0 1px 0 #ffe093;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+}
+.sign-box a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.second-line{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.second-line a{
+ color: #007185;
+ font-size: 13px;
+ text-decoration: none;
+ margin-top: 4px;
+ margin-bottom: 2px;
+ margin-left: 3px;
+
+}
+ .second-line a:hover{
+  color: red;
+ }
+ /** foot panel1 **/
+.fot_panel1{
+  background-color:#37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  height: 60px;
+  width: 100vw;
+}
+   /** foot panel2 **/
+
+ .foot-panel2{
+  background-color: #232F3E;
+  height: 300px;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+ 
+ }
+
+ .foot-panel2 p{
+  margin-top: 31px;
+  font-weight: 700;
+ }
+
+  .foot-panel2 a {
+ display: block; 
+ color: #dddddd;
+ font-size: 0.8rem;
+ margin-top: 10px;
+ cursor: pointer;
+ text-decoration: none;
+ font-weight: 500;
+
+  }
+  .foot-panel2 a:hover{
+    border-bottom:  2px solid #dddddd;
+    }
+ /***** foot panel 3****/
+
+  .foot-panel3{
+    background-color:#232F3E ;
+    height: 90px;
+    width: 100vw;
+    border-top: 0.5px solid  #605f5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot-logo{
+    background-image: url("nav_logo\ 2.png");
+    background-size: cover;
+     height: 60px;
+     width: 100px;
+  
+
+  }
+  .foot-panel4{
+    background-color: #131A22;
+    height: 60px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem; }
+    
+  
+
+    .page a {
+      color: white;
+     margin-left: 6px;
+     text-decoration: none;
+    
+    
+    }
+    .page:hover a{
+      border-bottom: 1px solid white ;
+    }
+    
+    
+  .copyright{
+    margin-top: 5px;
+  }
+  /* media queries for width */
+ 
+  @media (min-width:272px) and (max-width:505){
+    
